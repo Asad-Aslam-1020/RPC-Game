@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#header {
+  width: 100vw;
+  line-height: 120px;
+  background-color: rgb(13, 13, 13);
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#heading {
+  font-weight: 100;
+  opacity: 70%;
+}
+
+#gameContainer {
+    text-align: center;
+    border-top: 80px solid  rgb(13, 13, 13);
+    border-bottom: 100px solid  rgb(13, 13, 13);
+    border-left: 500px solid  rgb(13, 13, 13);
+    border-right: 500px solid  rgb(13, 13, 13);
+    background-color: rgba(50, 50, 50, 0.700);
+    width: 100vw;
+    height: 83vh;
+}
+
+.choice {
+  width: 165px;
+  height: 165px;
+}
+
+#choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  opacity: 80%;
+}
+
+img:hover {
+    border: 2px black solid;
+    opacity: 100%;
+    cursor: pointer;
+}
+
+#scoreBoard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.score {
+    width: 100px;
+    line-height: 50px;
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    border: 2px black solid;
+}
+
+.moves {
+  width: 100px;
+  line-height: 50px;
+  background-color: blue;
+  color: whitesmoke;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  border: 2px black solid;
+  font-weight: lighter;
+}
+
+#messageContainer {
+    width: 300px;
+    line-height: 60px;
+    border: 2px black solid;
+    position: relative;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+    background-color: blue;
+    color: whitesmoke;
+    font-size: 1.3rem;
+}
+

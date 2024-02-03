@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPC Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1 id="heading">ROCK PAPER SCISSOR</h1>
+    </header>
+
+    <main id="gameContainer">
+      <div id="choices">
+        <div class="choice" id="rock">
+          <img src="img/rock.png" alt="" />
+        </div>
+
+        <div class="choice" id="paper">
+          <img src="img/paper.png" alt="" />
+        </div>
+
+        <div class="choice" id="scissors">
+          <img src="img/scissors.png" alt="" />
+        </div>
+      </div>
+
+      <div id="scoreBoard">
+
+        <div class="moves" id="playerChoice">Player's Move</div>
+        <div class="score" id="pScore">
+          <p id="playerScore">0</p>
+          <p>Player</p>
+        </div>
+
+        <div class="score" id="cScore">
+          <p id="computerScore">0</p>
+          <p>Computer</p>
+        </div>
+        <div class="moves" id="computerChoice">Computer's Move</div>
+      </div>
+
+      <div id="messageContainer">Chose Your</div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
